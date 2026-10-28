@@ -10,3 +10,8 @@ _site
 *.tgz
 .header.json
 .simstate.json
+.env
+.env.*
+!.env.example
+!.env.*.example
+.claude/settings.local.json

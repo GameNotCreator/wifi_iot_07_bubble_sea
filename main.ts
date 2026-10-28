@@ -67,8 +67,8 @@ let tension_min = 0
 let Tubidity = 0
 let tdsValue = 0
 let roundedPH = 0
-DFRobotWiFiIoTI2C.WIFISetup("REDACTED_WIFI_SSID", "REDACTED_SECRET")
-DFRobotWiFiIoTI2C.ThingSpeakConfigure("REDACTED_SECRET")
+DFRobotWiFiIoTI2C.WIFISetup("", "")
+DFRobotWiFiIoTI2C.ThingSpeakConfigure("")
 basic.forever(function () {
     getData()
     SendData()
